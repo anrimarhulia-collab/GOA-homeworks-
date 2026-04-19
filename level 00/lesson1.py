@@ -1,7 +1,6 @@
 from turtle import *
 
 
-shape('circle')
 #we want to paint a house
 
 #step 1:draw a square
@@ -44,6 +43,8 @@ pendown()
 color('brown')
 
 begin_fill()
+
+
 right(150)
 forward(200)
 left(120)
@@ -100,8 +101,42 @@ forward(42.50)
 end_fill()
 
 
+#ფანჯრის ჩარჩო
+penup()
+goto(120,140)
+width(3)
+right(120)
+pendown()
+forward(47)
+
+penup()
+goto(143,161)
+pendown()
+right(90)
+forward(47)
+
+penup()
+goto(30,140)
+pendown()
+left(90)
+forward(47)
+
+penup()
+goto(53,161)
+pendown()
+right(90)
+forward(47)
+
+#კარის სახელური
+penup()
+goto(86,43)
+pendown()
+width(4)
+forward(5)
 
 
 
 
 exitonclick()
+
+
