@@ -7,6 +7,7 @@ from turtle import *
 speed(30)
 width(5)
 color('gray')
+begin_fill()
 
 
 
@@ -21,6 +22,8 @@ left(90)
 
 forward(200)
 left(90)
+end_fill()
+
 #end og square
 
 #drawing a door
@@ -133,6 +136,9 @@ goto(86,43)
 pendown()
 width(4)
 forward(5)
+penup()
+goto(500,500)
+
 
 
 
